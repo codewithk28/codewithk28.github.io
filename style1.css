@@ -1,0 +1,178 @@
+/*THÀNH QUẢ CỦA NHÓM 2 GỬI ĐẾN CÁC ANH CHỊ TRONG BAN HỌC THUẬT <3*/
+/* MINH HẰNG
+   HUY PHONG
+
+
+/*css*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clear{
+    clear: both;
+}
+#divchinh{
+}
+
+#header{
+    height: 45px;
+    background-image: url(https://unsplash.com/photos/ju2NgSoR6pA);
+    background-color: darkblue;
+    width: 100%;
+    }
+
+#nav{
+}
+
+#nav li{
+ display: inline-block;
+    position: relative;}
+    #nav li a{color: #fff;
+    text-decoration: none;
+     line-height: 45px;
+      padding: 0 24px;
+    }
+    #nav li a:hover{background-color: #ccc; color: #000;
+        display: inline-block;    }
+#slider/*{
+    position: relative;
+    margin-top: 0px;
+    padding-top: 150%;
+    background: url(https://s1.1zoom.me/big0/100/Czech_Republic_Houses_494561.jpg) top center / cover no-repeat;
+    background-size: 300px;
+}*/
+ 
+#slider .text-content{
+    opacity: 0.4;
+    position: absolute;
+    top: 300px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#slider .text-heading{
+    position: absolute;
+    bottom: 250px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    font-size: 50px;
+    font-style: oblique;
+}
+#slider .text-description{
+position: absolute;
+bottom: 200px;
+left: 50%;
+transform: translateX(-50%);
+color: #fff;
+font-size: 30px;
+font-style: oblique;
+}
+#content{
+
+}
+
+#content .content-section{
+    width: 800px;
+    padding: 64px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .section-heading{
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#content .section-sub-heading{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+}
+
+#content .about-text{
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#content .members-list{
+    margin-top: 48px;
+}
+
+#content .member-iteam{
+    float: left;
+    width: 33.33333%;
+    text-align: center;
+}
+
+#content .member-name{
+    font-size: 15px;
+}
+
+#content .member-img{
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+#footer{
+}
+
+#thongtinthanhvien .anhthu {
+    max-width: 80%;    margin-top: 50px;
+
+    height: auto;  border-radius: 8px;
+
+    margin-left: 10%;
+}
+
+#thongtinthanhvien .minhhang {
+    max-width: 80%;    margin-top: 50px;
+    border-radius: 8px;
+
+    height: auto;    margin-left: 10%;
+
+}
+#thongtinthanhvien .huyphong {
+    margin-top: 50px;
+    max-width: 80%;
+    height: auto;    margin-left: 10%;
+    margin-bottom: 60px;  border-radius: 8px;
+
+
+}
+#thongtinthanhvien {
+    background-color: aqua;
+}
+.fb-heading {
+    position: absolute;
+    bottom: 30%;
+    left: 80%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+.fb2-heading{
+    position: absolute;
+    bottom: -43%;
+    left: 80%;
+    transform: translateX(-50%);    color: #fff;
+
+}
+.fb3-heading{
+    position: absolute;
+    bottom: -115%;
+    left: 80%;
+    transform: translateX(-50%);    color: #fff;
+
+}
